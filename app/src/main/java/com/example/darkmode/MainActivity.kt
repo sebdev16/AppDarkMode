@@ -53,7 +53,7 @@ class MainActivity : ComponentActivity() {
 
 
         themeButton.setOnClickListener {
-            // Cambia el modo de tema
+            
             val newIsDarkMode = !isDarkMode
             setTheme(newIsDarkMode)
             saveThemePreference(newIsDarkMode)
